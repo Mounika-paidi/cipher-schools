@@ -1,0 +1,14 @@
+public class chipherSchool{
+public static void main(String[] args){
+int a=1;
+int b=7;
+System.out.println("a is: " + a);
+System.out.println("b is: " + b);
+
+
+byte b2=4;
+System.out.println("byte value  is: " + b2);
+
+float f=65.5;
+System.out.println("float value is: " + f);
+}
