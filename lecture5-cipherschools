@@ -1,0 +1,11 @@
+public class lecturE5 {
+
+	public static void main(String[] args) {
+     int m=5;
+     System.out.println("m is: "+ m++);
+     System.out.println("m is: "+ ++m);
+     System.out.println("m is: "+ --m);
+     System.out.println("m is: "+ m--);
+	}
+
+}
