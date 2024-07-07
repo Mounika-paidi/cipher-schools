@@ -1,0 +1,37 @@
+public class ArrayExample {
+    public static void main(String[] args) {
+        
+        int[] numbers = new int[5]; // Array of size 5
+        
+
+        numbers[0] = 10;
+        numbers[1] = 20;
+        numbers[2] = 30;
+        numbers[3] = 40;
+        numbers[4] = 50;
+        
+       
+        System.out.println("Element at index 0: " + numbers[0]);
+        System.out.println("Element at index 2: " + numbers[2]);
+        
+        
+        numbers[1] = 25;
+        System.out.println("Modified element at index 1: " + numbers[1]);
+        
+        
+        int sum = 0;
+        for (int i = 0; i < numbers.length; i++) {
+            sum += numbers[i];
+        }
+        System.out.println("Sum of all elements: " + sum);
+        
+
+        String[] names = {"Alice", "Bob", "Charlie", "David"};
+        
+       
+        System.out.println("First name: " + names[0]);
+        System.out.println("Second name: " + names[1]);
+        
+        System.out.println("Number of names: " + names.length);
+    }
+}
