@@ -1,0 +1,54 @@
+
+public class MyClass {
+   
+    public int publicVar = 10;
+    
+   
+    private int privateVar = 20;
+    
+    int defaultVar = 30;
+    
+   
+    protected int protectedVar = 40;
+    
+    
+    public void publicMethod() {
+        System.out.println("This is a public method");
+    }
+    
+    private void privateMethod() {
+        System.out.println("This is a private method");
+    }
+    
+
+    void defaultMethod() {
+        System.out.println("This is a default method");
+    }
+    
+
+    protected void protectedMethod() {
+        System.out.println("This is a protected method");
+    }
+}
+
+
+public class Main {
+    public static void main(String[] args) {
+        MyClass obj = new MyClass();
+        
+        System.out.println("Public variable: " + obj.publicVar);
+        obj.publicMethod();
+        
+     
+        System.out.println("Default variable: " + obj.defaultVar);
+        obj.defaultMethod();
+        
+        // Cannot access private members from outside the class
+        // System.out.println("Private variable: " + obj.privateVar); // This would give a compile-time error
+        // obj.privateMethod(); // This would give a compile-time error
+        
+        // Accessing protected members
+        System.out.println("Protected variable: " + obj.protectedVar);
+        obj.protectedMethod();
+    }
+}
