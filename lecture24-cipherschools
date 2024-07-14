@@ -1,0 +1,38 @@
+public class StringConcatExample {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "World";
+        String result = str1 + ", " + str2 + "!";  // Using + operator
+
+        System.out.println(result);
+
+        // Using concat() method
+        String result2 = str1.concat(", ").concat(str2).concat("!");
+        System.out.println(result2);
+    }
+}
+
+
+
+
+
+
+
+public class StringComparisonExample {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "hello";
+        String str3 = "Hello";
+
+        // Using equals() method
+        System.out.println(str1.equals(str2));  // false
+        System.out.println(str1.equals(str3));  // true
+
+        // Using equalsIgnoreCase() method
+        System.out.println(str1.equalsIgnoreCase(str2));  // true
+
+        // Using compareTo() method
+        System.out.println(str1.compareTo(str2));  // Negative value
+        System.out.println(str1.compareTo(str3));  // 0
+    }
+}
