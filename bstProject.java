@@ -1,7 +1,5 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
 class BSTNode {
     int key;
     BSTNode left, right;
@@ -12,7 +10,6 @@ class BSTNode {
         //This class represents the Nodes of Binary Search tree
     }
 }
-
 class BinarySearchTree {
     BSTNode root;
     BinarySearchTree() {
