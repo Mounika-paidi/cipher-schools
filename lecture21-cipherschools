@@ -1,0 +1,16 @@
+import java.util.Arrays;
+
+public class ArraySortingExample {
+    public static void main(String[] args) {
+        int[] numbers = {5, 3, 8, 1, 2, 7, 4, 6};
+
+        // Print original array
+        System.out.println("Original array: " + Arrays.toString(numbers));
+
+        // Sort the array
+        Arrays.sort(numbers);
+
+        // Print sorted array
+        System.out.println("Sorted array: " + Arrays.toString(numbers));
+    }
+}
